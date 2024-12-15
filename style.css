@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+nav{
+    height: 50px;
+    background-color: black;
+    padding: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color: bisque;
+    font-weight: bold;
+    font-size: large;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.formulaire form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.formulaire {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: auto;
+    color: bisque;
+}
+/* .formulaire form div {
+    margin-bottom: 15px;
+} */
+.formulaire label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.formulaire input{
+    width: 200px;
+    padding: 8px;
+    border: 1px solid bisque;
+    border-radius: 5px;
+}
+.formulaire select{
+    width: 217px;
+    padding: 8px;
+    border: 1px solid bisque;
+    border-radius: 5px;
+}
+.formulaire button {
+    width: 100px;
+    padding: 10px;
+    background-color: bisque;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.formulaire button:hover {
+    background-color: white;
+}
